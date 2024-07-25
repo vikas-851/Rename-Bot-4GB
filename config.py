@@ -2,13 +2,13 @@ import os
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER = int(os.environ.get("OWNER", ""))
-BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
+API_ID = int(os.environ.get("API_ID", "28122413"))
+API_HASH = os.environ.get("API_HASH", "750432c8e1b221f91fd2c93a92710093")
+OWNER = int(os.environ.get("OWNER", "7453770651"))
+BOT_USERNAME = os.environ.get('BOT_USERNAME', "renamer_4gb_fast_robot")
 
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001975521991"))
 
 DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
