@@ -7,11 +7,11 @@ API_HASH = os.environ.get("API_HASH", "750432c8e1b221f91fd2c93a92710093")
 OWNER = int(os.environ.get("OWNER", "7453770651"))
 BOT_USERNAME = os.environ.get('BOT_USERNAME', "renamer_4gb_fast_robot")
 
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "luffy_giveaways")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001975521991"))
 
 DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+DB_NAME = os.environ.get("DB_NAME", "renamerv1")
 
 STRING = os.environ.get("STRING", "")
 BOT_PIC = os.environ.get("BOT_PIC", "https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg")
